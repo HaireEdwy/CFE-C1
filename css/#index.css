@@ -33,11 +33,11 @@ header {
 .container-banner-index {
     width: 100%;
     height: 100%;
+    justify-content:space-between;
 }
 
 .container-banner-index img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -47,7 +47,6 @@ header {
 
     table {
         display: table;
-        border-collapse: separate;
         box-sizing: border-box;
         text-indent: initial;
         border-spacing: 2px;

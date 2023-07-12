@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
+<!-- COMEÇA O HEAD -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,16 +8,20 @@
 
 
 </head>
+<!-- TERMINA O HEAD -->
 
+<!-- COMEÇA O BODY -->
 <body>
+
     <section>
+        <!-- COMEÇA O HEADER -->
         <header>
             <div class="containerTitleBanner">
                 <h1>Loja de Eletrônicos</h1>
             </div>
 
             <div class="container-banner-index">
-                <img src="./assets/banner.jpg" alt="loja de eletrônicos">
+                <img src="./assets/banner.jpg" width="150%" alt="loja de eletrônicos">
             
             <style>
                 img-banner {
@@ -28,99 +32,109 @@
             </style>
             </div>
         </header>
+        <!-- TERMINA O HEADER -->
 
+        <!-- COMEÇA O MAIN -->
         <main>
+            <!-- COMEÇA A SECTION -->
             <section class="Conheça nossas ofertas">
                 <h2>Produtos em Destaque</h2>
+                <P></P>
+                <p>Bem-vindo à nossa loja virtual de eletrônicos! Aqui você encontrará uma ampla variedade de produtos, desde
+                    smartphones até dispositivos eletrônicos para casa. </p>
+                <p>Confira abaixo alguns dos nossos produtos em destaque. Não perca as grandes ofertas!</p>
+                <P></P>
+                <style>
+                    #customers {
+                        font-family: Arial, Helvetica, sans-serif;
+                        border-collapse: collapse;
+                        margin: auto;
+                    }
+
+                    #customers td,
+                    #customers th {
+                        border: 1px solid #ddd;
+                        padding: 8px;
+                    }
+
+                    #customers tr:nth-child(even) {
+                        background-color: #f2f2f2;
+                    }
+
+                    #customers tr:hover {
+                        background-color: #ddd;
+                    }
+
+                    #customers th {
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        text-align: left;
+                        background-color: #04AA6D;
+                        color: white;
+                    }
+
+                    div {
+                        margin: auto;
+                    }
+                </style>
+
+                <div>
+                    <h1>Tabela de Produtos</h1>
+
+                    <!-- COMEÇA A TABELA -->
+                    <table id="customers">
+                        <tr>
+                            <th>Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Disponibilidade</th>
+                        </tr>
+                        <tr>
+                            <td>Smartphone</td>
+                            <td>Smartphone top de linha</td>
+                            <td>R$ 1.999</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>Tablet</td>
+                            <td>Tablet com tela de alta resolução</td>
+                            <td>R$ 899</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>Smart TV</td>
+                            <td>Smart TV com resolução 4K</td>
+                            <td>R$ 3.499</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>Fone de Ouvido</td>
+                            <td>Fone de ouvido sem fio</td>
+                            <td>R$ 199</td>
+                            <td>Em estoque</td>
+                        </tr>
+                        <tr>
+                            <td>Câmera</td>
+                            <td>Câmera digital profissional</td>
+                            <td>R$ 2.299</td>
+                            <td>Em estoque</td>
+                        </tr>
+                    </table>
+                    <!-- TERMINA A TABELA -->
+                </div>
+
+                <!-- COMEÇA O FOOTER -->
+                <div class="footer">
+                    <p>(11) 987665544</p>
+                    <p>lojadeeletronicos@outlook.com.br</p>
+                    <p>R. João Ramalho, 970, São Bernardo do Campo - SP</p>
+                </div>           
+                <!-- TERNINA O FOOTER -->
+        
             </section>
-
-            <p>Bem-vindo à nossa loja virtual de eletrônicos! Aqui você encontrará uma ampla variedade de produtos, desde
-                smartphones até dispositivos eletrônicos para casa.</p>
-            <p>Confira abaixo alguns dos nossos produtos em destaque. Não perca as grandes ofertas!</p>
-            <P></P>
-            <style>
-                #customers {
-                    font-family: Arial, Helvetica, sans-serif;
-                    border-collapse: collapse;
-                    margin: auto;
-                }
-
-                #customers td,
-                #customers th {
-                    border: 1px solid #ddd;
-                    padding: 8px;
-                }
-
-                #customers tr:nth-child(even) {
-                    background-color: #f2f2f2;
-                }
-
-                #customers tr:hover {
-                    background-color: #ddd;
-                }
-
-                #customers th {
-                    padding-top: 12px;
-                    padding-bottom: 12px;
-                    text-align: left;
-                    background-color: #04AA6D;
-                    color: white;
-                }
-
-                div {
-                    margin: auto;
-                }
-            </style>
-
-            <div>
-                <h1>Tabela de Produtos</h1>
-
-                <table id="customers">
-                    <tr>
-                        <th>Produto</th>
-                        <th>Descrição</th>
-                        <th>Preço</th>
-                        <th>Disponibilidade</th>
-                    </tr>
-                    <tr>
-                        <td>Smartphone</td>
-                        <td>Smartphone top de linha</td>
-                        <td>R$ 1.999</td>
-                        <td>Em estoque</td>
-                    </tr>
-                    <tr>
-                        <td>Tablet</td>
-                        <td>Tablet com tela de alta resolução</td>
-                        <td>R$ 899</td>
-                        <td>Em estoque</td>
-                    </tr>
-                    <tr>
-                        <td>Smart TV</td>
-                        <td>Smart TV com resolução 4K</td>
-                        <td>R$ 3.499</td>
-                        <td>Em estoque</td>
-                    </tr>
-                    <tr>
-                        <td>Fone de Ouvido</td>
-                        <td>Fone de ouvido sem fio</td>
-                        <td>R$ 199</td>
-                        <td>Em estoque</td>
-                    </tr>
-                    <tr>
-                        <td>Câmera</td>
-                        <td>Câmera digital profissional</td>
-                        <td>R$ 2.299</td>
-                        <td>Em estoque</td>
-                    </tr>
-                </table>
-            </div>
-
-            <div class="footer">
-                <p>Footer</p>
-            </div>
-        </section>
-
-    </main>
+            <!-- TERMINA A SECTION -->
+        </main>
+        <!-- TERMINA O MAIN -->
 </body>
-
+<!-- TERMINA O BODY -->
 </html>
